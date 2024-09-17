@@ -102,7 +102,7 @@ const ContactForm = () => {
       <div className="flex justify-center mt-8 space-x-8">
         <motion.div whileHover={{ y: -5 }} className="text-purple-600 flex items-center space-x-2">
           <Mail />
-          <span>adnanmuhhaed@gmail.com</span>
+          <span>comicfixteam@f5.si</span>
         </motion.div>
         <motion.div whileHover={{ y: -5 }} className="text-purple-600 flex items-center space-x-2">
           <Phone />
