@@ -10,7 +10,7 @@ const HeroSection = () => {
         transition={{ duration: 0.5 }}
         className="mb-8"
       >
-        <img src="/logo.svg" alt="Comicfix Logo" className="w-32 h-32 mx-auto" />
+        <img src="https://i.postimg.cc/prXh6WSd/svg.avif" alt="Comicfix Logo" className="w-32 h-32 mx-auto" />
       </motion.div>
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
