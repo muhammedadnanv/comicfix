@@ -34,10 +34,15 @@ const ContactForm = () => {
           </motion.button>
         </motion.form>
       </div>
-      <div className="flex justify-center mt-8 space-x-4">
-        <motion.div whileHover={{ y: -5 }} className="text-purple-600"><Mail /></motion.div>
-        <motion.div whileHover={{ y: -5 }} className="text-purple-600"><Phone /></motion.div>
-        <motion.div whileHover={{ y: -5 }} className="text-purple-600"><MessageSquare /></motion.div>
+      <div className="flex justify-center mt-8 space-x-8">
+        <motion.div whileHover={{ y: -5 }} className="text-purple-600 flex items-center space-x-2">
+          <Mail />
+          <span>your-email@example.com</span>
+        </motion.div>
+        <motion.div whileHover={{ y: -5 }} className="text-purple-600 flex items-center space-x-2">
+          <Phone />
+          <span>+123-456-7890</span>
+        </motion.div>
       </div>
     </section>
   );
